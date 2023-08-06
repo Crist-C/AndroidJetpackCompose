@@ -10,7 +10,6 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import com.ccastro.androidjetpackcompose.presentation.screens.imageCarousel.components.ImageCarouselContent
 import com.ccastro.androidjetpackcompose.presentation.ui.theme.AndroidJetpackComposeTheme
 
 //@AndroidEntryPoint
@@ -24,7 +23,7 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    ImageCarouselContent()
+                    //ImageCarouselContent()
                 }
             }
         }
